@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Montana Role Play</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <!-- Логотип слева -->
+    <a href="index.html">
+      <img src="logo.png" alt="logo" class="header_logo">
+    </a>
+
+    <!-- Десктопное меню (центр) -->
+    <nav class="header_nav">
+      <ul>
+        <li class="header_link">Главная</li>
+        <li class="header_link">Форум</li>
+        <li class="header_link">Магазин</li>
+      </ul>
+    </nav>
+
+    <!-- Правая часть: кабинет + бургер (на мобилках) -->
+    <div class="header_actions">
+      <button type="button" class="btn-header">Кабинет</button>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Мобильное меню (выпадашка) -->
+    <div class="header_nav_mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#" class="header_link">Главная</a></li>
+        <li><a href="#" class="header_link">Форум</a></li>
+        <li><a href="#" class="header_link">Магазин</a></li>
+        <li><a href="#" class="header_link">Кабинет</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+  <main class="main">
+    <section class="wellcome">
+      <div class="video-container">
+        <video autoplay muted loop playsinline class="video-bg">
+          <source src="trailer.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="wellcome_desc">
+          <h1 class="wellcome_title">Montana Role Play</h1>
+          <p class="wellcome_text">Многопользовательская онлайн игра<br>
+          с огромным открытым миром, в котором<br>
+          ты можешь стать кем захочешь!</p>
+            <div class="wellcome_btns">
+              <button type="button">Скачать лаунчер</button>
+              <button type="button">Об игре</button>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container">
+        <h2 class="section_title">Последние обновления</h2>
+        <div class="news_grid">
+          
+          <article class="news_card">
+            <div class="news_image_stub">
+              <img src="webseite.png" alt="wb">
+            </div>
+            <div class="news_content">
+              <span class="news_date">18 Января, 2026</span>
+              <h3 class="news_name">Открытие собственного сайта</h3>
+              <p class="news_preview">Команда <span class="games">Montana Games</span> открыла собственный веб-сайт, благадоря которому вы сможете легко и быстро установить лаунчер проекта!</p>
+              <a href="#" class="news_more">Читать далее</a>
+            </div>
+          </article>
+
+          <article class="news_card">
+          <div class="news_image_stub">
+            <img src="launcher.jpg" alt="launcher">
+            </div>
+            <div class="news_content">
+            <span class="news_date">10 Января, 2026</span>
+            <h3 class="news_name">Открытие своего лаунчера</h3>
+            <p class="news_preview">Команда <span class="games">Montana Games</span> успешно открыла лаунчер</p>
+            <a href="#" class="news_more">Читать далее</a>
+            </div>
+          </article>
+
+          <article class="news_card">
+            <div class="news_image_stub">
+              <img class="pr3" src="team.png" alt="project">
+            </div>
+            <div class="news_content">
+              <span class="news_date">05 Января, 2026</span>
+              <h3 class="news_name">Начало разработки <span class="games">Montana</span></h3>
+              <p class="news_preview">Команда <span class="games">Montana Games</span> начали разработку нового проекта <span class="games">Montana Role Play.</span></p>
+              <a href="#" class="news_more">Читать далее</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-column">
+          <div class="footer-logo">MONTANA RP</div>
+          <p class="footer-about">Лучший проект для твоей игры. Присоединяйся к тысячам игроков прямо сейчас!</p>
+          <p class="footer-copy">Montana Games © 2026</p>
+        </div>
+        <div class="footer-column">
+          <h4>Проекты</h4>
+          <a href="#">Сервер Alpha</a>
+          <a href="#">Сервер Bravo</a>
+          <a href="#">Мониторинг</a>
+        </div>
+        <div class="footer-column">
+          <h4>Полезное</h4>
+          <a href="#">Форум</a>
+          <a href="#">Правила</a>
+          <a href="#">Техподдержка</a>
+        </div>
+        <div class="footer-column">
+          <h4>Оплата</h4>
+          <div class="payment-icons">
+            <span>VISA</span> <span>MIR</span> <span>SBP</span>
+          </div>
+          <a href="mailto:support@montana.ru" class="email">support@montana.ru</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
